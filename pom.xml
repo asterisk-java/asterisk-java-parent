@@ -61,6 +61,9 @@
             <archive>http://sourceforge.net/mailarchive/forum.php?forum=asterisk-java-devel</archive>
         </mailingList>
     </mailingLists>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <build>
         <plugins>
             <plugin>
