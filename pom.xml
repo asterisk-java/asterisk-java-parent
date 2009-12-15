@@ -40,7 +40,7 @@
         </snapshotRepository>
         <site>
             <id>reucon</id>
-            <url>dav:https://secure.reucon.net/maven/projects/public/${artifactId}/${version}</url>
+            <url>dav:https://secure.reucon.net/maven/projects/public/${project.artifactId}/${project.version}</url>
         </site>
     </distributionManagement>
     <issueManagement>
@@ -81,7 +81,7 @@
                     <remoteTagging>true</remoteTagging>
                     <preparationGoals>clean install</preparationGoals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <tagBase>https://secure.reucon.net/svn/repos/${artifactId}/tags</tagBase>
+                    <tagBase>https://secure.reucon.net/svn/repos/${project.artifactId}/tags</tagBase>
                 </configuration>
             </plugin>
             <plugin>
