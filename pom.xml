@@ -4,7 +4,7 @@
     <artifactId>asterisk-java-parent</artifactId>
     <packaging>pom</packaging>
     <name>Asterisk-Java Parent</name>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
     <description>Parent POM for Asterisk-Java projects.</description>
     <url>http://asterisk-java.org/</url>
     <licenses>
