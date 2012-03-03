@@ -32,20 +32,20 @@
     <distributionManagement>
         <repository>
             <id>reucon</id>
-            <url>https://secure.reucon.net/nexus/content/repositories/opensource</url>
+            <url>https://nexus.reucon.com/content/repositories/opensource</url>
         </repository>
         <snapshotRepository>
             <id>reucon</id>
-            <url>https://secure.reucon.net/nexus/content/repositories/opensource-snapshots</url>
+            <url>https://nexus.reucon.com/content/repositories/opensource-snapshots</url>
         </snapshotRepository>
         <site>
             <id>reucon</id>
-            <url>dav:https://secure.reucon.net/maven/projects/public/${project.artifactId}/${project.version}</url>
+            <url>dav:https://maven.reucon.com/projects/public/${project.artifactId}/${project.version}</url>
         </site>
     </distributionManagement>
     <issueManagement>
         <system>JIRA</system>
-        <url>http://jira.reucon.org/browse/AJ</url>
+        <url>http://issues.reucon.com/browse/AJ</url>
     </issueManagement>
     <mailingLists>
         <mailingList>
@@ -76,11 +76,11 @@
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.11</version>
+                <version>2.12</version>
             </plugin>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.2.1</version>
+                <version>2.2.2</version>
                 <configuration>
                     <remoteTagging>true</remoteTagging>
                     <preparationGoals>clean install</preparationGoals>
@@ -122,7 +122,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.11</version>
+                <version>2.12</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
